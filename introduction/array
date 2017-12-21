@@ -1,0 +1,19 @@
+#!/usr/local/bin/bash
+
+array=(1 2 3 4 5)
+#echo ${array[1]}
+echo "print length"
+declare -i arr_length=${#array[@]} 
+((length=arr_length-1))
+# 4 is array length minus 1
+for i in {0..4}
+do
+	echo ${array[i]}
+done
+
+# another way to loop would be
+for x in "${array[@]}"
+do
+	echo ${array[x]}
+done
+

@@ -1,0 +1,5 @@
+#!/usr/local/bin/bash
+declare -f number=2
+echo $number 
+variable="bc -l <<< '100/3'"
+echo $variable

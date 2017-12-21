@@ -1,0 +1,4 @@
+#!/usr/local/bin/bash
+variable1="Hello"
+variable1+=" World"
+echo $variable1

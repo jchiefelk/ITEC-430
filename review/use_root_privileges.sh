@@ -1,0 +1,1 @@
+sudo comman_name

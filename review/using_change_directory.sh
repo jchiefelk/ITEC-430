@@ -4,3 +4,5 @@
 # cd .
 # Changes to the Parent directory
 # cd ..
+# Change to the Home directory
+# cd ~

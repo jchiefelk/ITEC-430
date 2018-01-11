@@ -1,2 +1,1 @@
-# ITEC-430
-ITEC 430 Course Material
+# ITEC-430 - Using Github

@@ -17,3 +17,7 @@ After doing this, you may fix the identity used for this commit with:
 <pre>
     git commit --amend --reset-author
 </pre>
+
+<p>
+  Now try to pull data.....
+</p>

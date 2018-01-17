@@ -6,10 +6,14 @@
 
 
 <pre>
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
+   git config --global user.name "Your Name"
+   git config --global user.email you@example.com
+</pre>
 
+<p>
 After doing this, you may fix the identity used for this commit with:
+</p>
 
+<pre>
     git commit --amend --reset-author
 </pre>

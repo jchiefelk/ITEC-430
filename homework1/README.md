@@ -1,6 +1,5 @@
  <h1>Homework 1</h1>
 
-<h3>Set 1</h3>
 <p>
 Create several scripts, each of which does the following listed below. Note, name your scripts according to following nomenclature.
 </p>

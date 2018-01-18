@@ -18,10 +18,10 @@ Create several scripts, each of which does the following listed below. Note, nam
  Sydney 31
  Linda 35
 </pre>
-Now, create a script thats reads this file and prints the age(2nd column) to the terminal
+Now, create a script thats reads this file and prints the age(2nd column) to the terminal (hint: use awk)
 <p>4) Create a script that contains a loop that prints "Hello World" to the screen 10 times</p>
 <p>5) Create a script that creates an array of strings and prints the contents of the array to the screen using a for loop</p>
-<p>5) Create a script that takes in 5 string arguments and store them in the array. Print contents to the terminal using a for loop
+<p>6) Create a script that takes in 5 string arguments and store them in the array. Print contents to the terminal using a for loop
 
 
 <h3>Set 2 - Python Script</h3>
@@ -37,7 +37,7 @@ Now, create a script thats reads this file and prints the age(2nd column) to the
 Now, create a script thats reads this file and prints the age(2nd column) to the terminal
 <p>4) Create a script that contains a loop that prints "Hello World" to the screen 10 times</p>
 <p>5) Create a script that creates an array of strings and prints the contents of the array to the screen using a for loop</p>
-<p>5) Create a script that takes in 5 string arguments and store them in the array. Print contents to the terminal using a for loop
+<p>6) Create a script that takes in 5 string arguments and store them in the array. Print contents to the terminal using a for loop
 
 <h3>Set 3</h3>
 <p>1) make directory with your name</p>

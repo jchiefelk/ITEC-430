@@ -21,7 +21,7 @@ password = {
 def api_actions():
 	if request.method =='GET':
 
-		print("GET REQUEST")
+		return "GET REQUEST\n"
 		'''
 		if 'password' in request.args and password['secret']==request.args['password']:
 			response={

@@ -1,25 +1,11 @@
 from flask import Flask, request
-# from flask.ext.mysql import MySQL
 app = Flask(__name__)
 
-# mySQL Configurations
-'''
-mysql = MySQL()
-app.config['MYSQL_DATABASE_USER']='root'
-app.config['MYSQL_DATABASE_PASSWORD']=''
-app.config['MYSQL_DATABASE_DB']='testuserdb'
-app.config['MYSQL_DATABASE_HOST']='127.0.0.1'
-mysql.init_app(app)
-conn = mysql.connect()
-'''
-
-password = {
-	'secret': '111' 	
-};
 
 @app.route('/api',methods = ['GET', 'POST', 'DELETE'])
 def api_actions():
 	if request.method =='GET':
+<<<<<<< HEAD
 
 		return "GET REQUEST\n"
 		'''
@@ -31,21 +17,14 @@ def api_actions():
 		else:
 			return 'Incorrect Password\n'
 		'''
+=======
+		return "GET REQUEST\n"
+>>>>>>> f7b07a1bf5d89025b6c9b8ffa53d71fd08d7c775
 
 
 	elif request.method =='POST':
-		
-		print("POST REQUEST")
+		return "POST REQUEST\n"
 
-		'''
-		if 'password' in request.args and password['secret']==request.args['password']:
-			response={
-			'message': 'Password '+request.args['password']+' correct'+'\n'
-			}
-			return response['message']
-		else:
-			return 'Incorrect Password\n'
-		'''
 
 if __name__ == "__main__":
 	app.run(debug=True)

@@ -1,0 +1,7 @@
+HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+Server: Werkzeug/0.13 Python/3.6.4
+Date: Thu, 18 Jan 2018 22:01:06 GMT
+
+GET REQUEST

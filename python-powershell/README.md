@@ -54,3 +54,12 @@ python
 </pre>
 
 <p>This should print Verson 3. something.  Exit the Python Shell, then download <a href="https://www.sublimetext.com/">Sublime Text</a> </p>
+
+<p>Last, install Git on Windows Server 2016 at <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> </p>
+
+
+<h3>Accessing PowerShell inside of a Python Script.</h3>
+
+<p>
+	
+</p>

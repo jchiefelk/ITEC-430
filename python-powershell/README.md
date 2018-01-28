@@ -67,16 +67,10 @@ python
 <h3>Accessing PowerShell inside of a Python Script.</h3>
 
 <pre>
-from msvcrt import getch
-import os, platform
-if platform.system() == "Windows":
-    import msvcrt
+import os
+import msvcrt
 def getch():
-    if platform.system() == "Linux":
-        os.system("bash -c \"read -n 1\"")
-    else:
         msvcrt.getch()
-
 print("Type a key!")
 getch()
 print("Okay")	

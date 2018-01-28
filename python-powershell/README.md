@@ -13,31 +13,31 @@ new-item -Name itec430 -ItemType directory
 Set-Location dir_name
 </pre>
 
-3) Listing directory (same as Bash)
+<p>3) Listing directory (same as Bash)</p>
 
 <pre>
 ls
 </pre>
 
-4) Print to terminal
+<p>4) Print to terminal</p>
 
 <pre>
 Write-Host "Hello World"
 </pre>
 
-5) Print working directory to console
+<p>5) Print working directory to console</p>
 <pre>
 cmd
 </pre>
 
-6) The "which" command, used to locate the directory an execuatble is stored, is "where" in Windows.
+<p>6) The "which" command, used to locate the directory an execuatble is stored, is "where" in Windows.</p>
 
 <pre>
 where command_name
 </pre>
 
 
-7) Removing a Directory
+<p>7) Removing a Directory</p>
 <pre>
 rd directory_name
 </pre>

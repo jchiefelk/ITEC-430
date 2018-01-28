@@ -8,5 +8,4 @@
 
 <h4>2) Week 4 we are going to be running Python in PowerShell.  We are also going to be doing Database backup. You'll need to download an iso image from Windows Server 2016 Datacenter from your SKC Microsoft Imagine account.</h4>
 
-
-
+<p>Submit your homework in a new folder called <h4>YourName_Homework2</h4> </p>

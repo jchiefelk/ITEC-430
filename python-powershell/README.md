@@ -37,6 +37,12 @@ where command_name
 </pre>
 
 
+7) Removing a Directory
+<pre>
+rd directory_name
+</pre>
+
+
 <h3>Installing Python 3, Pip, and an IDE</h3>
 <p>First, you need login into Administrator account on your Virtual Machine.  Python 2 is installed by default in Windows Server 2016.  First go into Interent Explorer, then go to "Internet Options", then "Security", then check "Disable", then select into "Custom level".  Enable downloads.
 </p>

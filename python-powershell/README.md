@@ -33,7 +33,7 @@ cmd
 <p>6) The "which" command, used to locate the directory an execuatble is stored, is "where" in Windows.</p>
 
 <pre>
-where command_name
+(Get-Command python).Path
 </pre>
 
 

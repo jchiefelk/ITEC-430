@@ -1,3 +1,6 @@
-import platform
-variable=platform.system()
-print(variable)
+import msvcrt
+def getch():
+        msvcrt.getch()
+print("Type a key!")
+getch()
+print("Okay")

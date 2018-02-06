@@ -112,6 +112,15 @@ mysql> select * from instructors
 
 <h3>Relationships</h3>
 
+<p>
 a) One-To-One: When a column is refrenced by another column, it references that column with a private key
+</p>
 
+<p>
+b) One-To-Many: When many different refrence the same column from a table. An example would be a bidding website like Ebay. Only one user can post a listing, but mul 	
+</p>
+
+<p>
+c) Many-To-Many: When a table contains a column that is related to another column that is itself, a refrence to another column
+</p>
 

@@ -8,7 +8,7 @@
 </p>
 
 <p>
-	In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge. This means being able to Create, Read, Update, Delete aka CRUD on a whiteboard.  Also, or start a side project that requires you to settup a Database on a Linux or Windows Operating Systems.
+	In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge. This means being able to Create, Read, Update, and Delete (aka CRUD) on a whiteboard.  
 </p>
 
 <h3>Foundational Knowledge</h3>
@@ -27,12 +27,10 @@
 <h3>Using SQL as Systems Administration</h3>
 
 <p>
-	We'll be using SQL in Windows Server 2016, see pros and cons <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a>
-	
+	We'll be using MySQL in Windows Server 2016, see pros and cons, <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a> . MySQL is used by ~50% of enterprises.  Its free to use, can be used on many different platforms, but costs for support. Microsoft SQL Server costs money, but has recently released a Linux port in 2017, read <a href="https://www.wired.com/2017/01/microsofts-old-school-database-surprise-software-hit-year/">here</a>
 </p>
 
-
-
+<h3>Getting Started</h3>
 
 <p>
  First install flask, and flask-mysql

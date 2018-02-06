@@ -1,19 +1,17 @@
  <h1>Python-MySQL</h1>
-
-<p>
-	First install flask, and flask-mysql
-</p>
-
-<pre>
->pip install flask flask-mysql
-</pre>
+ 
 
 <h3>Goals</h3>
 
 <p>
-	This is not a database class, our primary focus is accessing mysql from the terminal or Python scripts.  However, here is a list of topics
-	that are absolutely necessary for an intermediate grasp of MySQL 
+	This is not a database class, our primary focus is accessing the mysqldump tool from the terminal, or Python scripts.  However, below is a list of topics that are absolutely necessary for a foundational grasp of MySQL. 
 </p>
+
+<p>
+	In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge. This means being able to Create, Read, Update, Delete aka CRUD on a whiteboard.  Also, or start a side project that requires you to settup a Database on a Linux or Windows Operating Systems.
+</p>
+
+<h3>Foundational Knowledge</h3>
 
 <p>1) Understand the concept of Entities and Attributes - Basic Design Methods/Starting Data</p>
 <p>2) Create a Database</p>
@@ -25,10 +23,30 @@
 <p>8) What is Atomicity?</p>
 <p>9) Relationships; a)One-To-One, b) One-to-Many, c) Many-to-Many</p>
 
+
+<h3>Using SQL as Systems Administration</h3>
+
+<p>
+	We'll be using SQL in Windows Server 2016, see pros and cons <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a>
+	
+</p>
+
+
+
+
+<p>
+ First install flask, and flask-mysql
+</p>
+
+<pre>
+>pip install flask flask-mysql
+</pre>
+
+
 <h3>Entities and Attributes</h3>
 
 <p>
-	A user (entity) has a username (attribute). A table row represents an entity.
+ A user (entity) has a username (attribute). A table row represents an entity.
 </p>
 
 
@@ -90,7 +108,7 @@ mysql> describe instructors;
 <h3>Get data from a table</h3>
 
 <pre>
-mysql> select * from instructors
+mysql> select * from instructors;
 </pre>
 
 

@@ -30,10 +30,10 @@
 	We'll be using MySQL in Windows Server 2016, see pros and cons, <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a> . MySQL is used by ~50% of enterprises.  Its free to use, can be used on many different platforms, but costs for support. Microsoft SQL Server costs money, but has recently released a Linux port in 2017, read <a href="https://www.wired.com/2017/01/microsofts-old-school-database-surprise-software-hit-year/">here</a>
 </p>
 
-<h3>Getting Started</h3>
+<h3>Getting Started on Windows</h3>
 
 <p>
- First install flask, and flask-mysql
+ To install MySQL on Windows you first need to install the MySQL Installer, located here <a href="https://www.mysql.com/">here</a>. Then install install flask, and flask-mysql
 </p>
 
 <pre>

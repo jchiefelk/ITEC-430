@@ -12,7 +12,7 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-bash">Python-Bash</a></h3> Using Python to build a scheduler that repeats Bash commands over time intervals</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-powershell">PowerShell</a><h3> Using the PowerShell terminal to naviagte directory, create new directories, setting path for Python 3, installing Git, running Python 3 in PowerShell</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-powershell">PowerShell</a></h3> Using the PowerShell terminal to naviagte directory, create new directories, setting path for Python 3, installing Git, running Python 3 in PowerShell</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">mysql</a></h3>Review, foundational knowledge for MySQL in onsite interviews.</p>
 

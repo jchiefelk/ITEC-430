@@ -2,7 +2,7 @@
 
 
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/using_github">Using Github</a></h3> We'll be using during the whole coarse to pull course material and for homework assignments</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/using_github">Using Github</a></h3> We'll be using during the whole coarse to pull course material and for homework assignments.  Settup an account, learn how to use Git to download or push data from a Git repository</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Review</a></h3> A quick refresh of Bash terminal commands</p>
 
@@ -16,4 +16,4 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">mysql</a></h3>Review, foundational knowledge for MySQL in onsite interviews.</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-mysql">Python-MySQL</a></h3> Create a disaster recovery strategy for MySQL database</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-mysql">Python-MySQL</a></h3> Create a disaster recovery strategy for MySQL database on Windows Server</p>

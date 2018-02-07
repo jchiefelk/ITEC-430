@@ -16,12 +16,11 @@
 <p>1) Understand the concept of Entities and Attributes - Basic Design Methods/Starting Data</p>
 <p>2) Create a Database</p>
 <p>3) Create a Table</p>
-<p>4) Create a Column</p>
-<p>5) Adding Data to a Database</p>
-<p>6) Read from a database</p>
-<p>7) What is Normalization used for?</p>
-<p>8) What is Atomicity?</p>
-<p>9) Relationships; a)One-To-One, b) One-to-Many, c) Many-to-Many</p>
+<p>4) Adding Data to a Database</p>
+<p>5) Read from a database</p>
+<p>6) What is Normalization?</p>
+<p>7) What is Atomicity?</p>
+<p>8) Relationships; a)One-To-One, b) One-to-Many, c) Many-to-Many</p>
 
 
 <h3>Using SQL as a Systems Administrator</h3>
@@ -41,13 +40,13 @@
 </pre>
 
 
-<h3>Entities and Attributes</h3>
+<h3>1) Entities and Attributes</h3>
 
 <p>
  A user (entity) has a username (attribute). A table row represents an entity.
 </p>
 
-<h3>Create a Database</h3>
+<h3>2) Create a Database</h3>
 
 <p>After logging on to your database using the mysql terminal, see which databases are present by running</p>
 
@@ -71,7 +70,7 @@ To choose that table
 mysql>use employees;
 </pre>
 
-<h3>Create a Table</h3>
+<h3>3) Create a Table</h3>
 
 <p>
 To create a new table,
@@ -81,7 +80,7 @@ To create a new table,
 mysql>create table instructors (firstname VARCHAR(20),lastname VARCHAR(20));
 </pre>
 
-<h3>Add data to a database</h3>
+<h3>4) Add data to a database</h3>
 
 <p>
 Add data to the instructor data by performing.
@@ -94,22 +93,22 @@ mysql> insert into instructors (firstname, lastname)
 	-> ("Jackson", "Chief Elk");
 </pre>
 
-<h3>Show table structure</h3>
+<h3>5) Read from a database</h3>
+
+<p>Show table structure</p> 
 
 <pre>
 mysql> describe instructors;
 </pre>
 
 
-<h3>Get data from a table</h3>
+<p>Get data from a table</p>
 
 <pre>
 mysql> select * from instructors;
 </pre>
 
-
-
-<h3>What is normalization?</h3>
+<h3>6) What is normalization?</h3>
 
 <p>
 	Normalization are a set of different procedures used to reduce
@@ -118,10 +117,10 @@ mysql> select * from instructors;
 </p>
 
 
-<h3>What is atomicity?</h3>
+<h3>7) What is atomicity?</h3>
 
 <p>
-	Atomic data, atomicity, is having data stored in its most indivisible and irreducible piece.
+	Atomic data, atomicity, is having data stored in its most indivisible and irreducible piece.  An example of some data that is NOT atomic is a full name like "Satoshi Nakamoto".  This piece of data is made up of both a first name and a last name. In MySQL, the atomic way would be store the first and last name individually in their own column.  First and last names cannot be reduced further, therefore our data store in those columns is atomic.
 </p>
 
 <h3>Relationships</h3>
@@ -171,7 +170,7 @@ os.popen("mysqldump -u root --password="+password+" --databases employees > dump
 </pre>
 
 <p>
-The reason that we are importing the "sys" module is so that we can accept a user's root password as a command line argument, and then assign it to a variable called password, which is the concatenated into mysqldump command called by the subprocess.	
+The reason that we are importing the "sys" module is so that we can accept a user's root password as a command line argument, and then assign it to a variable called password, which is the concatenated into mysqldump command called by the subprocess.
 </p>
 
 

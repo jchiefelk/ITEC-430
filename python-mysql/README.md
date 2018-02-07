@@ -4,7 +4,7 @@
 <h3>Using SQL as a Windows Systems Administrator</h3>
 
 <p>
- To install MySQL on Windows Server 2016 you first need to install the MySQL Installer, located here <a href="https://www.mysql.com/">here</a>. Then install MySQL and required libraries. Then install install flask, and flask-mysql
+ To install MySQL on Windows Server 2016 you first need to install the MySQL Installer, located <a href="https://www.mysql.com/">here</a>. Then install MySQL and required libraries. Then install install flask, and flask-mysql
 </p>
 
 <pre>

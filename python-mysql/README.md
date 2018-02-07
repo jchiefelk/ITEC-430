@@ -4,11 +4,11 @@
 <h3>Goals</h3>
 
 <p>
-	This is not a database class, our primary focus is accessing the mysqldump tool from the terminal, or Python scripts.  However, below is a list of topics that are absolutely necessary for a foundational grasp of MySQL. 
+	This is not a database class, our primary focus is accessing the mysqldump tool from the terminal, or Python scripts.  However, below is a list of topics that are absolutely necessary for a foundational grasp of MySQL.  The goals for this class is to equip you with experience preparing a disaster recovery strategy and the technical skills automate DATABASE BACKUP.  Since MySQL accounts for roughly 45% of enterprize databases, plus its an old reliable standard, its a good starting database technology to learn.
 </p>
 
 <p>
-	In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge. This means being able to Create, Read, Update, and Delete (aka CRUD) on a whiteboard.  
+	In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge for their interview processes.  In an on-site interview you could be expected to do simple one line SQL commands on a whiteboard. This means being able to Create, Read, Update, and Delete (aka CRUD).  In addition, questions on any of the foundational knowledge below is also fair game for an interview.
 </p>
 
 <h3>Foundational Knowledge</h3>
@@ -24,16 +24,16 @@
 <p>9) Relationships; a)One-To-One, b) One-to-Many, c) Many-to-Many</p>
 
 
-<h3>Using SQL as Systems Administration</h3>
+<h3>Using SQL as a Systems Administrator</h3>
 
 <p>
-	We'll be using MySQL in Windows Server 2016, see pros and cons, <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a> . MySQL is used by ~50% of enterprises.  Its free to use, can be used on many different platforms, but costs for support. Microsoft SQL Server costs money, but has recently released a Linux port in 2017, read <a href="https://www.wired.com/2017/01/microsofts-old-school-database-surprise-software-hit-year/">here</a>
+	We'll be using MySQL in Windows Server 2016, see pros and cons, <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a> . MySQL is used by ~50% of enterprises.  Its free to use, can be used on many different platforms, multiple different DB engine selections, but costs for support. Microsoft SQL Server costs money, but has recently released a Linux port in 2017, read <a href="https://www.wired.com/2017/01/microsofts-old-school-database-surprise-software-hit-year/">here.</a> . It is the go-to standard for .NET specific applications.
 </p>
 
 <h3>Getting Started on Windows</h3>
 
 <p>
- To install MySQL on Windows you first need to install the MySQL Installer, located here <a href="https://www.mysql.com/">here</a>. Then install install flask, and flask-mysql
+ To install MySQL on Windows you first need to install the MySQL Installer, located here <a href="https://www.mysql.com/">here</a>. Then install MySQL and required libraries. Then install install flask, and flask-mysql
 </p>
 
 <pre>
@@ -47,8 +47,6 @@
  A user (entity) has a username (attribute). A table row represents an entity.
 </p>
 
-
-
 <h3>Create a Database</h3>
 
 <p>After logging on to your database using the mysql terminal, see which databases are present by running</p>
@@ -58,7 +56,7 @@ mysql>show tables;
 </pre>
 
 <p>
-	To create a new database, run
+ To create a new database, run
 </p>
 
 <pre>
@@ -76,7 +74,7 @@ mysql>use employees;
 <h3>Create a Table</h3>
 
 <p>
-	To create a new table,
+To create a new table,
 </p>
 
 <pre>
@@ -86,7 +84,7 @@ mysql>create table instructors (firstname VARCHAR(20),lastname VARCHAR(20));
 <h3>Add data to a database</h3>
 
 <p>
-	Add data to the instructor data by performing.
+Add data to the instructor data by performing.
 </p>
 
 <pre>
@@ -139,4 +137,6 @@ b) One-To-Many: When many different refrence the same column from a table. An ex
 <p>
 c) Many-To-Many: When a table contains a column that is related to another column that is itself, a refrence to another column
 </p>
+
+
 

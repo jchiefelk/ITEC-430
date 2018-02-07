@@ -1,7 +1,7 @@
 # ITEC-430
 ITEC 430 Course Material
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Review</a></h3>- A quick refresh of Bash terminal commands</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Review</a></h3> A quick refresh of Bash terminal commands</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction</a></h3> Functions, Variables</p>
 

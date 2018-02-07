@@ -1,8 +1,7 @@
- <h1>PowerShell</h1>
+<h1>PowerShell</h1>
+
 <h3>Review</h3>
-
 <p>1) creating a new directory using new-item</p>
-
 <pre>
 new-item -Name itec430 -ItemType directory 
 </pre>
@@ -12,6 +11,8 @@ new-item -Name itec430 -ItemType directory
 <pre>
 Set-Location dir_name
 </pre>
+
+<p>Note, "cd" command works as well.</p>
 
 <p>3) Listing directory (same as Bash)</p>
 

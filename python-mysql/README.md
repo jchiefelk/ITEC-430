@@ -11,7 +11,7 @@
 >pip install flask flask-mysql
 </pre>
 
-<h3>Creating a Disaster Recovery Strategy</h3>
+<h3>Exercise: Create a Disaster Recovery Strategy</h3>
  
  <p>1) Do NOT store backups in the same physical location as database files.</p>
  <p>2) Make sure you have a proper backup schedule established. This will be unique per organization based on the needs of the company.</p>
@@ -23,7 +23,7 @@ This strategy is ideal for automation. And since the strategy needs to be repeat
 
 
 
-<h3>1) Create a clone using mysqldump</h3>
+<h5>1) Create a clone using mysqldump</h5>
 
 <p>
 	First, import os and create subprocess that calls on the command line tool, "mysqldump". mysqldump is a tool installed natively with MySQL distributions. It cannot be used from mysql shell, but directly from Bash or Windows terminal.  
@@ -37,5 +37,5 @@ os.popen("mysqldump -u root --password="+password+" --databases employees > dump
 </pre>
 
 <p>
-The reason that we are importing the "sys" module is so that we can accept a user's root password as a command line argument, and then assign it to a variable called password, which is the concatenated into mysqldump command called by the subprocess.
+The reason that we are importing the "sys" module is so we can accept a user's root password as a command line argument, and then assign it to a variable called password, which is then concatenated into mysqldump command called by the subprocess.
 </p>

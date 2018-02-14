@@ -15,5 +15,23 @@
 <p> 3) The receiver then decrypts </p>
 
 <p>
-  This is an over simplification of the process, but for a newbie to crypto this is sufficient enough.  Specifically is is very important that you NO LONGER USE DSA.  The reasons behind this, is because DSA is now vulnerable to Brute-Force attack.  You can read more about this vulnerability here at this thread on <a href='https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys'>Stack Exhcange.</a>
+  This is an over simplification of the process, but for a newbie to crypto this is sufficient enough.  To launch SSH on your Ubuntu machine, perform the following. 
 </p>
+
+
+<pre>
+$sudo apt-get install openssh-server
+$sudo service ssh status
+</pre>
+
+
+
+<p>
+ Specifically is is very important that you NO LONGER USE DSA.  The reasons behind this, is because DSA is now vulnerable to Brute-Force attack.  You can read more about this vulnerability here at this thread on <a href='https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys'>Stack Exhcange.</a>
+</p>
+
+<p>
+  In fact, DSA is disabled in OpenSSH versions 7.0 and greater, see <a href='http://www.openssh.com/legacy.html'>Legacy.</a>
+</p>
+
+

@@ -1,41 +1,19 @@
- <h1>Python-MySQL</h1>
- 
-
-<h3>Using SQL as a Windows Systems Administrator</h3>
+<h1>SSH</h1>
 
 <p>
- To install MySQL on Windows Server 2016 you first need to install the MySQL Installer, located here <a href="https://www.mysql.com/">here</a>. Then install MySQL and required libraries. Then install install flask, and flask-mysql
+  SSH is a technology that allows for secure remote access between computers, over an unsecured network.  It achieves this extra security measure using Public Key Cryptography.
 </p>
 
-<pre>
->pip install flask flask-mysql
-</pre>
+<h3>Public/Private Key Cryptography</h3>
 
-<h3>Creating a Disaster Recovery Strategy</h3>
- 
- <p>1) Do NOT store backups in the same physical location as database files.</p>
- <p>2) Make sure you have a proper backup schedule established. This will be unique per organization based on the needs of the company.</p>
- <p>3) Make sure to actually restore backups on a testserver, and verify that you can restore with all the options and conditions you need to use during a planned or un-planned downtime.</p>
- 
 <p>
-This strategy is ideal for automation. And since the strategy needs to be repeated on schedule, we will use Python to build a scheduler that repeats cloning a mysql database using the terminal tool "mysqldump".  To this we will need to invoke an operationg system subprocess call using the "os" module. Next in our script, we will transfer the cloned schema ( *.sql file), . Next, you'll transfer the *.sql file to an external server via SSH, then we will restore the backup sql schema into remote db, perform a simple query to verify that the clone was performed sucessfully
+  This technology was originally engineered by the US Military.  It provides an extra layer of security on top of remote acess using a just password, which is vulnerable against a Brute-Force Attack.  As an example, lets think of 2 people who want to remotely connect over ther internet, Alice and Bob. The method works as follows  
 </p>
 
-
-
-<h3>1) Create a clone using mysqldump</h3>
-
-<p>
-	First, import os and create subprocess that calls on the command line tool, "mysqldump". mysqldump is a tool installed natively with MySQL distributions. It cannot be used from mysql shell, but directly from Bash or Windows terminal.  
-</p>
-
-<pre>
-import os
-import sys
-password=sys.argv[1]
-os.popen("mysqldump -u root --password="+password+" --databases employees > dump.sql")
-</pre>
+<p> 1) A User encrypts their message using both their Private and the others servers Public Key</p> 
+<p> 2) They send this message over unsecure network</p>
+<p> 3) The receiver then decrypts </p>
 
 <p>
-The reason that we are importing the "sys" module is so that we can accept a user's root password as a command line argument, and then assign it to a variable called password, which is the concatenated into mysqldump command called by the subprocess.
+  This is an over simplification of the process, but for a newbie to crypto this is sufficient enough.  Specifically is is very important that you NO LONGER USE DSA.  The reasons behind this, is because DSA is now vulnerable to Brute-Force attack.  You can read more about this vulnerability here at this thread on <a href='https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys'>Stack Exhcange.</a>
 </p>

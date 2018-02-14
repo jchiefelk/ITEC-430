@@ -3,7 +3,7 @@ import time
 import os
 import datetime
 
-password = "'jchie4445'"
+password = ""
 
 def job():
 

@@ -3,7 +3,7 @@ import time
 import os
 import datetime
 
-password = "'jchie4445'"
+password = ""
 
 timestamp = datetime.datetime.utcnow()
 backupdatabase = 'backup_'+str(timestamp)

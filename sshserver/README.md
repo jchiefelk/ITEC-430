@@ -52,9 +52,8 @@ $ssh 127.0.0.1
 </pre>
 
 <p>
- Now, this will produce an errors. Something like port 22 not found.  This has to do with the need to generate an RSA key pair
+ Now this will produce an errors. Something like port 22 not found.  This has to do with the need to generate an RSA key pair
 </p>
-
 
 <pre>
 $ssh-keygen -t rsa
@@ -62,23 +61,25 @@ $sudo service ssh restart
 </pre>
 
 <p>
-  After you succesfully login, navigate about. To exit the remote session, execute
+  Now try to login again. You'll be prompted for a password and if you want to save your public key on the OpenSSH server.  After you succesfully login, navigate about, create a file and example.txt.  Use nano to add the following test, "Working remotely". To exit the remote session, execute
 </p>
-
 
 <pre>
-exit
+$exit
 </pre>
 
+
+<h3>Security Deprecations</h3>
+
 <p>
- Specifically is is very important that you NO LONGER USE DSA.  The reasons behind this, is because DSA is now vulnerable to Brute-Force attack.  You can read more about this vulnerability here at this thread on <a href='https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys'>Stack Exhcange.</a>
+  Older versions of OpenSSH use to offer DSA as an encription algorithm to generate keys. It is very important that you NO LONGER USE DSA.   In fact, DSA is disabled in OpenSSH versions 7.0 and greater, see <a href='http://www.openssh.com/legacy.html'>Legacy.</a>  The reasons behind this, is because DSA is now vulnerable to Brute-Force attack.  You can read more about this DSA vulnerabilities in these useful links.</p> 
+  
+<p>
+  <a href='https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys'>Stack Exhcange thread</a>
 </p>
 
 <p>
-  In fact, DSA is disabled in OpenSSH versions 7.0 and greater, see <a href='http://www.openssh.com/legacy.html'>Legacy.</a>
+  <a href='https://isecpartners.com/media/105564/ritter_samuel_stamos_bh_2013_cryptopocalypse.pdf'>A presentation at BlackHat 2013 </a>
 </p>
-
-
-
 
 

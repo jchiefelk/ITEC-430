@@ -125,5 +125,5 @@ c) Many-To-Many: When a table contains a column that is related to another colum
 <h3>Interview Questions</h3>
 
 <p>
-An extensive list of interview questions for MySQL and Windows can be found on <a href="https://github.com/cshenoy/awesome-interviews">Github here</a>	
+An extensive list of interview questions for MySQL, Linux and Windows Sys Admin jobs can be found on <a href="https://github.com/cshenoy/awesome-interviews">Github here</a>	
 </p>

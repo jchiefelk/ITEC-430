@@ -60,7 +60,7 @@ $curl -i -X GET http://localhost:5000/api -o server_response.txt
 </pre>
 
 <p>	
-	To edit the output file below, now we use sed.  We need sed because we are only interested in the http status code, important for unit-testing a 3rd party api you have paid a license for access to. Use sed to edit out all of the data except the first row
+	To edit the output file below, now we use sed.  We need sed because we are only interested in the http status code. Use sed to edit out all of the data except the first row
 </p>
 
 <pre>

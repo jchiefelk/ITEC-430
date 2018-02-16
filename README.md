@@ -1,4 +1,4 @@
-# ITEC-430 Course Material
+# ITEC-430 Salish Kootenai College Course Material
 
 
 

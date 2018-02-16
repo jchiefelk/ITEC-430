@@ -51,14 +51,14 @@ I.	Create a server log and edit the out
 	You’ll need two terminal windows open for this exercise. Inside of restAPI, deploy the api doing the following
 </p>
 <pre>
-					$python3 rest.py
+$python3 rest.py
 </pre>
 
 <p>
 Next you need to send the API a query in order to generate a server log.  
 </p>
 <pre>
-$ curl -i -X GET http://localhost:5000/api -o server_response.txt
+$curl -i -X GET http://localhost:5000/api -o server_response.txt
 </pre>
 
 <p>	
@@ -66,7 +66,7 @@ $ curl -i -X GET http://localhost:5000/api -o server_response.txt
 </p>
 
 <pre>
-	$ sed ‘1!d’ server_response.txt   
+$sed ‘1!d’ server_response.txt   
 </pre>
 <p>
 	sed receives it’s instructions inside of the single quotation mark.  The target file is specified after the instructions.
@@ -76,5 +76,5 @@ $ curl -i -X GET http://localhost:5000/api -o server_response.txt
 II.	Write sed output to data file. To write data from a stream in Bash to a file you need to use the greater than operator (>). 
 </p>
 <pre>
-$ sed ‘1!d’ server_response.txt > http_status_log.txt
+$sed ‘1!d’ server_response.txt > http_status_log.txt
 </pre>

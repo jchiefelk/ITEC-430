@@ -3,7 +3,7 @@
 <h3>Goals</h3>
 
 <p>
-Using variables in shell
+Using variables and functions in shell
 </p>
 
 <h4>What are variables?</h4>

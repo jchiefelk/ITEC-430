@@ -4,7 +4,7 @@
 <h3>Awk</h3>
 
 <p>
- Very is a very powerful command line tool. Useful for many things including reading structured data files in Bash.
+A powerful command line tool. Useful for many things including reading structured data files in Bash.
 </p>
 
 

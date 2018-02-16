@@ -12,7 +12,7 @@
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/blob/master/bashtools">Bash Tools</a></h3> curl, awk, sed, grep, tail, head</p>
 
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Clone and deploy a web application built with Python and Flask on your localhost.  Learn how to query servers for data using curl.  Interact with rest APIs using GUI tool Postman</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Deploy a web application built with Python on your localhost.  Learn how to query servers for data using curl.  Interact with rest APIs using GUI tool Postman</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-bash">Python-Bash</a></h3> Using Python to build a scheduler that repeats Bash commands over time intervals</p>
 

@@ -4,7 +4,7 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/using_github">Using Github</a></h3> We'll be using during the whole coarse to pull course material and for homework assignments.  Settup an account, learn how to use Git to download or push data from a Git repository</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Review</a></h3> A quick refresh of Bash terminal commands</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Bash Review</a></h3> A quick refresh of Bash terminal commands</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction</a></h3> Functions, Variables</p>
 

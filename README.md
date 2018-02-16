@@ -6,7 +6,7 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Bash Review</a></h3> A quick refresh of Bash terminal commands</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction to Shell Scripting</a></h3> Functions, Variables, Arthimetic</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction to Shell Scripting</a></h3> Functions, Variables, Arrays, Controls Statements</p>
 
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/blob/master/bashtools">Bash Tools</a></h3> curl, awk, sed, chmod, tail, head</p>

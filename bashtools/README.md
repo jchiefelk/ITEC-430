@@ -47,8 +47,7 @@ A very powerful Bash tool for editing data streams.
 
 <h4>Exercises</h4>
 <p>
-I.	Create a server log and edit the out 
-	You’ll need two terminal windows open for this exercise. Inside of restAPI, deploy the api doing the following
+I.	Create a server log and edit the output. You’ll need two terminal windows open for this exercise. Inside of restAPI, deploy the api doing the following
 </p>
 <pre>
 $python3 rest.py

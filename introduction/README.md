@@ -3,7 +3,7 @@
 <h3>Goals</h3>
 
 <p>
-To equip you with the ability to use variables, arrays, functions, in Python and Bash scripts.
+To equip you with the ability to use variables, arrays, and functions in your Python and Bash scripts.
 </p>
 
 <h4>What are variables?</h4>

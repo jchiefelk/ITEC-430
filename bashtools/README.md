@@ -11,8 +11,13 @@ $chmod 755 sample.sh
 </pre>
 
 <p>
-Also, in order to have executable permissions	
+Also, in order to have executable permissions, you must include the location of the sh library at the top of your shell script.  You do this by using the SheBang	
 </p>
+
+
+<pre>
+#!/bin/sh
+</pre>
 
 <h3>head & tail</h3>
 

@@ -18,6 +18,6 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-powershell">PowerShell</a></h3> Using the PowerShell terminal to naviagte directory, create new directories, setting path for Python 3, installing Git, running Python 3 in PowerShell</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">mysql</a></h3>Review, foundational knowledge for MySQL in onsite interviews.</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">mysql</a></h3>Review, foundational knowledge for MySQL</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/DisasterRecoverStatrategy-DBbackup">DisasterRecoverStatrategy-DBbackup</a></h3> Create a disaster recovery strategy for MySQL database on Windows Server</p>

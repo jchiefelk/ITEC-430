@@ -11,8 +11,7 @@ A powerful command line tool. Useful for many things including reading structure
 <h4>Exercises</h4>
 
 <p>
-I.	Print to terminal the second column in a sample data file called sample.txt
-Use nano to create sample.txt,
+I.	Print to terminal the second column in a sample data file called sample.txt.  Use nano to create sample.txt,
 <p>
 
 <pre>

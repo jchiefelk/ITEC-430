@@ -78,7 +78,3 @@ II.	Write sed output to data file. To write data from a stream in Bash to a file
 <pre>
 $ sed ‘1!d’ server_response.txt > http_status_log.txt
 </pre>
-
-<p>
-	The output looks like,
-</p>

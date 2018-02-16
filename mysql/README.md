@@ -4,11 +4,10 @@
 <h3>Goals</h3>
 
 <p>
-	This is not a database class, our primary focus is accessing the mysqldump tool from the terminal, or Python scripts.  However, below is a list of topics that are absolutely necessary for a foundational grasp of MySQL.  The goals for this class is to equip you with experience preparing a disaster recovery strategy and the technical skills automate DATABASE BACKUP.  Since MySQL accounts for roughly 45% of enterprize databases, plus its an old reliable standard, its a good starting database technology to learn.
+	This is not a database class, our primary focus is accessing the mysqldump tool from the terminal, or Python scripts.  However, below is a list of topics that are absolutely necessary for a foundational grasp of MySQL.  The goals for this class is to equip you with experience deploying a disaster recovery strategy, by engineering an automated DATABASE BACKUP routine using Python and SSH.  Since MySQL accounts for roughly 45% of enterprise databases, plus it is an old standard of which many DB technologies are modeled after, makes it a good starting database technology to learn.
 </p>
 
-<p>
-	In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge for their interview processes.  In an on-site interview you could be expected to do simple one line SQL commands on a whiteboard. This means being able to Create, Read, Update, and Delete (aka CRUD).  In addition, questions on any of the foundational knowledge below is also fair game for an interview.
+<p>In the era of Big Data it is absolutely essential for Systems Administrators to be familiar with foundational SQL knowledge.  In an on-site interview you could be expected to do simple one line SQL commands on a whiteboard. This means being able to Create, Read, Update, and Delete (aka CRUD).  For basic Database design it is also essential to know the foundational knowledge below.
 </p>
 
 <h3>Foundational Knowledge</h3>
@@ -25,16 +24,13 @@
 
 <h3>Using SQL as a Systems Administrator</h3>
 
-<p>
-	We'll be using MySQL in Windows Server 2016, see pros and cons, <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a>  MySQL is used by ~50% of enterprises.  Its free to use, can be used on many different platforms, multiple different DB engine selections, but costs for support. Microsoft SQL Server costs money, but has recently released a Linux port in 2017, read <a href="https://www.wired.com/2017/01/microsofts-old-school-database-surprise-software-hit-year/">here.</a>  It is the go-to standard for .NET specific applications.
+<p>We'll be using MySQL in Windows Server 2016, see pros and cons, <a href="https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be">here.</a>  MySQL is used by ~50% of enterprises.  Its free to use, can be used on many different platforms, multiple different DB engine selections, but costs for support. Microsoft SQL Server costs money, but has recently released a Linux port in 2017, read <a href="https://www.wired.com/2017/01/microsofts-old-school-database-surprise-software-hit-year/">here.</a>  It is the go-to standard for .NET specific applications.
 </p>
 
 
 <h3>1) Entities and Attributes</h3>
 
-<p>
- A user (entity) has a username (attribute). A table row represents an entity.
-</p>
+<p>A user (entity) has a username (attribute). A table row represents an entity.</p>
 
 <h3>2) Create a Database</h3>
 
@@ -44,9 +40,7 @@
 mysql>show tables;
 </pre>
 
-<p>
- To create a new database, run
-</p>
+<p>To create a new database, run</p>
 
 <pre>
 mysql>create database employees;

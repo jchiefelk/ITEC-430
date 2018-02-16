@@ -1,24 +1,9 @@
 <h1>Bash Tools</h1>
 
-
-<h3>curl</h3>
-
+<h3>head & tail</h3>
 <p>
-cURL, aka curl, is a command line tool for transferring data between servers using one of the supported protocols; HTTP, HTTPS, FTP, more….
+Bash utility that prints to the terminal, either the starting or ending lines of a text file.	
 </p>
-
-<p>
-Let’s use curl in a shell script to automate unit-testing a REST API deployed locally to IP 127.0.0.1 and Port 5000. (http://127.0.0.1:5000/api).  In this script we’ll also do something new that we haven’t built into our shell script, use command line arguments.  Example,
-</p>
-
-<pre>
-curl -i -X GET http://localhost:5000/api -o output.txt
-sed '1!d' output.txt > http_responses_log.txt
-awk '{print $2}' http_responses_log.txt > tmp1.txt
-head tmp1.txt
-</pre>
-
-
 
 <h3>Awk</h3>
 
@@ -61,6 +46,23 @@ $awk ‘{print $2}’ input.txt > output.txt
 <p>
 A very powerful Bash tool for editing data streams.
 </p>
+
+<h3>curl</h3>
+
+<p>
+cURL, aka curl, is a command line tool for transferring data between servers using one of the supported protocols; HTTP, HTTPS, FTP, more….
+</p>
+
+<p>
+Let’s use curl in a shell script to automate unit-testing a REST API deployed locally to IP 127.0.0.1 and Port 5000. (http://127.0.0.1:5000/api).  In this script we’ll also do something new that we haven’t built into our shell script, use command line arguments.  Example,
+</p>
+
+<pre>
+$curl -i -X GET http://localhost:5000/api -o output.txt
+$sed '1!d' output.txt > http_responses_log.txt
+$awk '{print $2}' http_responses_log.txt > tmp1.txt
+$head tmp1.txt
+</pre>
 
 
 <h4>Exercises</h4>

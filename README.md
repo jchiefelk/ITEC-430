@@ -8,7 +8,11 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction to Shell Scripting</a></h3> Functions, Variables, editing permissions, Arthimetic</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Learn how to query servers for data transfer, and text parsing using sed and awk</p>
+
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/blob/master/bashtools">Bash Tools</a></h3> curl, awk, sed</p>
+
+
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Learn how to query servers for data transfer</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-bash">Python-Bash</a></h3> Using Python to build a scheduler that repeats Bash commands over time intervals</p>
 

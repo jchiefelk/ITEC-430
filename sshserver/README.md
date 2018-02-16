@@ -84,5 +84,5 @@ $exit
 
 
 <p>
-  Essentially the reason behind this is because the DSA protocol is built on a SHA-1 Encryption Algorithm, which has been broken publicly in 2017, see here in <a href='https://www.pcworld.com/article/3173791/security/stop-using-sha1-it-s-now-completely-unsafe.html'>PC World</a>
+  Essentially the reason behind this is because the DSA protocol is built on a SHA-1 Encryption Algorithm, which has been broken publicly in 2017, read here in <a href='https://www.pcworld.com/article/3173791/security/stop-using-sha1-it-s-now-completely-unsafe.html'>PC World</a>
 </p>

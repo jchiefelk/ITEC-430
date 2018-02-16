@@ -3,7 +3,7 @@
 <h3>Goals</h3>
 
 <p>
-Using variables and functions in shell
+To equip you with the ability to use variables, arrays, functions, and in Python and Bash scripts.
 </p>
 
 <h4>What are variables?</h4>
@@ -50,94 +50,126 @@ $echo $variable
 <p>Write a script that prints the number variable to the terminal</p>
 
 
-Github Practice Exercises
-Configure global github configuration in Ubuntu running on VMWare
-Visit https://github.com/jchiefelk/ITEC-430/tree/master/using_github for instructions.
 
-I granted you push permissions to the parent folder in Github.  Please accept the invitation to contribute in your email.
-
-Topics
- Arrays
-Control Statements
-
-Arrays
+<h4>Arrays</h4>
 	Arrays is a very commonly used data structure.  In the latest versions of Bash & PowerShell come with these data types.  They are useful for storing a set of numbers or strings.  Arrays in Bash/PowerShell are analogous to Lists in Python.  The difference between Arrays in Shell are as follows.
 This is how you assign contents to an array in Bash.
 
+<pre>
 array=(“Bob” “Alice” “Charles” “Linda” “George”)
+</pre>
 
 This is how you assign a List in Python 3.
-
+<pre>
 list=[“Bob”,“Alice”,“Charles”,“Linda”,“George”]
-
+</pre>
+<p>
 Note these differences. 1) In Bash you use Parentheses and in Python you use Brackets. 2) The Elements in Bash are white-space separated, in Python they are comma-separated.
 	Elements are the contents of an array.  They are accessed by their indice, i.e their position in the Array/List.  Important, the first element in an Array, “Bob”, starts at 0, the first element in a List also starts at 0.  The next element, “Alice”, is at position 1. The next element “Charles” at position 2, and so on.
 Another way to assign Array/List elements is to individually do so, as opposed to all at once. 
+</p>
+<p>
 In Bash,
+</p>
 
+<pre>
 array[0]=”Bob”
 array[1]=”Alice”
 array[2]=”Charles”
+</pre>
 
-
-
+<p>
 In Python 3,
+</p>
+
+<pre>
 list[0]=”Bob”
 list[1]=”Alice”
 list[2]=”Charles”
-	
+</pre>	
+<p>
 	Suppose you need to manually add a new element to an existing array.
+</p>
 
+<p>
 In Bash, you use the += operator
+</p>
+
+<pre>
 array=(“Bob” “Alice”)
 array+=(“Charles”)
+</pre>
+<p>In Python, you use a List Method</p>
 
-	In Python, you use a List Method
-	list=(“Bob” “Alice”)
+<pre>
+list=(“Bob” “Alice”)
 list.extend(“Charles”)
+</pre>
 
-	To access Array/List elements, in Bash you specify it first with dollar operator $ and Braces {}.  This tells the terminal’s interpreter that what comes after is an array.
+<p>To access Array/List elements, in Bash you specify it first with dollar operator $ and Braces {}.  This tells the terminal’s interpreter that what comes after is an array.</p>
  
+<pre>
 ${array[0]} 
+</pre>
 
-To access List elements in Python, 
+<p>To access List elements in Python,</p> 
 
+<pre>
 list[0]
+</pre>
 
-Control Statements
+<h3>Control Statements</h4>
+<p>
 The most commonly used control statement is the for loop.  This statement controls
 how many times a set of commands are executed.  Very useful when you need to repeat many of the same commands more than once.  Note, to use for loops in Bash you need to use the SheBang (!#) operator and set the script as an executable. This is because the latest version of Bash comes with all sorts of Bells and Whistles that the default on Bash in Ubuntu installed on your Virtual Machine.
-
+</p>
+<p>
 In Bash, use nano to put this at the top of a script (name test.sh) that we set as an executable
+</p>
+
+<pre>
 #!/binbash  
-	
-Next, use chmod to set execute permissions,
+</pre>	
+<p>Next, use chmod to set execute permissions,</p>
 
-		chmod 755 test.sh
-	
+<pre>
+chmod 755 test.sh
+</pre>
+
+<p>
 Boom, now open test.sh with nano and add the following lines after the shebang.
+</p>
 
 
+<pre>
 array=(“Bob” “Alice” “Charles” “Linda” “George”)
 	for x in “${array[@]}”
 	do
 		echo ${array[$x]}
 	done
+</pre>
 
-	Everything inside of the do-done lines is the instructions that are executed inside of the for loop.  Another way to use a for loop, if you know the length of your array(we do, 5) is so
-	
+<p>Everything inside of the do-done lines is the instructions that are executed inside of the for loop.  Another way to use a for loop, if you know the length of your array(we do, 5) is so</p>
+<pre>
 	for x in {0..4}
 	do
 		echo ${array[$x]}
 	done
-
+</pre>
+<p>
 Note, recall an array starts at 0.  The 4 specifies which index is the last. So for the for loop, we need to subtract the length of the array (5) by one.  This all very cryptic.
+</p>
+
+<p>
 In Python,
+</p>
+
 <pre>
 for x in range(0,list.len()-1):
 	print(list[x])
 </pre>
-OR,
+<p>OR,</p>
+
 <pre>
 for x in range(0,4):
 	print(list[x])

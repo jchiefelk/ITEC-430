@@ -72,7 +72,7 @@ $exit
 <h3>Security Deprecations</h3>
 
 <p>
-  Older versions of OpenSSH use to offer DSA as an encription algorithm to generate keys. It is very important that you NO LONGER USE DSA.   In fact, DSA is disabled in OpenSSH versions 7.0 and greater, see <a href='http://www.openssh.com/legacy.html'>Legacy.</a>  The reasons behind this, is because DSA is now vulnerable to Brute-Force attack.  You can read more about this DSA vulnerabilities in these useful links.</p> 
+  Older versions of OpenSSH use to offer DSA as an encription protocol to generate keys. It is very important that you NO LONGER USE DSA.   In fact, DSA is disabled in OpenSSH versions 7.0 and greater, see <a href='http://www.openssh.com/legacy.html'>Legacy.</a> You can read more about this DSA vulnerabilities in these useful links.</p> 
   
 <p>
   <a href='https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys'>Stack Exhcange thread</a>
@@ -83,3 +83,6 @@ $exit
 </p>
 
 
+<p>
+  Essentially the reason behind this is because the DSA protocol is built on a SHA-1 Encryption Algorithm, which has been broken publicly in 2017, see here in <a href='https://www.pcworld.com/article/3173791/security/stop-using-sha1-it-s-now-completely-unsafe.html'>PC World</a>
+</p>

@@ -6,7 +6,7 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/review">Bash Review</a></h3> A quick refresh of Bash terminal commands</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction</a></h3> Functions, Variables</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/introduction">Introduction to Shell Scripting</a></h3> Functions, Variables, editing permissions, Arthimetic</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Learn how to query servers for data transfer, and text parsing using sed and awk</p>
 

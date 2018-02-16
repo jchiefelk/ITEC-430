@@ -11,7 +11,7 @@
 <h4>Exercises</h4>
 
 <p>
-Print to terminal the second column in a sample data file called sample.txt
+I.	Print to terminal the second column in a sample data file called sample.txt
 Use nano to create sample.txt,
 <p>
 

@@ -41,7 +41,7 @@ $awk ‘{print $2}’ input.txt > output.txt
 
 <h3>sed</h3>
 <p>
- Like awk, is a very powerful Bash tool for editing data streams.
+A very powerful Bash tool for editing data streams.
 </p>
 
 

@@ -56,7 +56,7 @@ $echo $variable
 This is how you assign contents to an array in Bash.
 
 <pre>
-array=(“Bob” “Alice” “Charles” “Linda” “George”)
+$array=(“Bob” “Alice” “Charles” “Linda” “George”)
 </pre>
 
 This is how you assign a List in Python 3.

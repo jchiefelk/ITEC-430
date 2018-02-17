@@ -96,9 +96,31 @@ SSH clients for Python are horrendous to settup on Windows (SharpSSH, paramiko).
 
 <h4>scp</h4>
 <p>
-  scp is a Bash command-line tool for transfering data files over ssh.  The equivalent command in Windows after installing putty is pscp. 
-</p>sxsxsx
+  scp is a Bash command-line tool for transfering data files over ssh.  The equivalent command in Windows after installing PuTTy is pscp.  You'll need to restart your computer after installing in order to use pscp or other PuTTy tools in either the command prompt or PowerShell. 
+</p>
+
+
+<h3>Establishing an SSH connection</h3>
+
+<p>
+First lets Ping our Ubuntu localhost from Windows Command prompt.  To get the ip address of your Ubuntu server, execute
+</p>
+
+<h4>ifconfig</h4>
+<pre>
+$ifconfig
+</pre>
+
+<p>
+ Then on your Windows machine Ping this address
+</p>
 
 <pre>
->pscp -pw "password_here" file_transfer username@192.1.1.21:
+>ping 192.x.x.x
+</pre>
+
+<p>If no error, then test to see if you can send a file over ssh using pscp.  Create a test file in your directory, a Python script, called putty.py.
+
+<pre>
+>pscp -pw "password_here" putty.py username@x.x.x.x:
 </pre>

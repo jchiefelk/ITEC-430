@@ -86,3 +86,19 @@ $exit
 <p>
   Essentially the reason behind this is because the DSA protocol is built on a SHA-1 Encryption Algorithm, which has been broken publicly in 2017, read here in <a href='https://www.pcworld.com/article/3173791/security/stop-using-sha1-it-s-now-completely-unsafe.html'>PC World</a>
 </p>
+
+
+<h3>SSH on Windows</h3>
+
+<p>
+SSH clients for Python are horrendous to settup on Windows (SharpSSH, paramiko).  It is way more advantages to use PuTTy.  Download Putty <a href="https://www.putty.org/">here.</a> . What we want from PuTTy for our backup strategy, is the command line tool pscp. pscp is equivalent to scp in linux
+</p>
+
+<h4>scp</h4>
+<p>
+  scp is a Bash command-line tool for transfering data files over ssh.  The equivalent command in Windows after installing putty is pscp. 
+</p>sxsxsx
+
+<pre>
+>pscp -pw "password_here" file_transfer username@192.1.1.21:
+</pre>

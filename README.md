@@ -20,6 +20,6 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">mysql</a></h3>Foundational knowledge for MySQL (Review)</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">SSH</a></h3>Foundational knowledge for SSH; a) Running in Windows and Unix b) Public/Private Key Cryptography</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/mysql">SSH</a></h3> Public/Private Key Cryptography, Installing and Configuring OpenSSH server on Ubuntu, Installing and Configuring SSH tools (PuTTy) on Windows, sending files securely over SSH using scp and PuTTy</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/DisasterRecoverStatrategy-DBbackup">DisasterRecoverStatrategy-DBbackup</a></h3> Create a disaster recovery strategy for MySQL database on Windows Server</p>

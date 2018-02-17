@@ -91,7 +91,7 @@ $exit
 <h3>SSH on Windows</h3>
 
 <p>
-SSH clients for Python are horrendous to settup on Windows (SharpSSH, paramiko).  It is way more advantages to use PuTTy.  Download Putty <a href="https://www.putty.org/">here.</a> . What we want from PuTTy for our backup strategy, is the command line tool pscp. pscp is equivalent to scp in linux
+SSH clients for Python are horrendous to settup on Windows (SharpSSH, paramiko).  It is way more advantages to use PuTTy.  Download Putty <a href="https://www.putty.org/">here.</a> What we want from PuTTy for our backup strategy, is the command line tool pscp. pscp is equivalent to scp in linux
 </p>
 
 <h4>scp</h4>

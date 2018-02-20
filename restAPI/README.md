@@ -46,7 +46,7 @@ We’ll take a look at historical price data on Bitcoin served by GDAX’s REST 
 <p>It is much better/easier to view the response as JSON. Click the dropdown that says “Auto” and select “JSON”.</p>
 
 
-<h4>4) Add parameters to query</h4>
+<p>4) Add parameters to query</p>
 
 <p>
 To get different information from the API, we need add some parameters to our query. Parameters in a REST API query are specified after the question mark (?).  To get the price of Bitcoin since 2017, add “start=2017-01-01” after adding (?).

@@ -30,7 +30,7 @@ REST, “Representational State Transfer”, is a web service standard.  An orga
 No and Yes. Medical Health Records are becoming accessible through a protocol called FHIR.  It is REST-like, in the sense that you access data via a URL-endpoint.  A long list of FHIR vendors can be found, here.
 </p>
 
-<h4>Exercises:</h4>
+<h3>Exercises:</h3>
 
 <p>
 <h4>I.	Sample requests to a REST API using a Graphical User Interface.</h4>  

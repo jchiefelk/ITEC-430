@@ -76,12 +76,31 @@ In a real world eneterprise environment you want to send your backup to a remote
 </p>
 
 <pre>
->pscp -pw "password_here" putty.py username@127.0.0.1:
+>pscp -pw "password_here" winputty.py username@x.x.x.x:
 </pre>
 
 <p>
-
+Remember, get your op address from your Ubuntu server by running
 </p>
 
+<pre>
+$ifconfig
+</pre>
+
+<p>
+When you execute pscp, it will transfer the data files to	
+</p>
+
+<pre>
+/home/user_name
+</pre>
+
+<p>
+If you need to transfer to a specific folder, like ITEC-430/DisasterRecoverStatrategy-DBbackup, you specify the path after the colon in the pscp command.	
+</p>
+
+<pre>
+>pscp -pw "password_here" winputty.py username@x.x.x.x:/home/user_name/DisasterRecoverStatrategy-DBbackup
+</pre>
 
 

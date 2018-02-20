@@ -33,7 +33,10 @@ No and Yes. Medical Health Records are becoming accessible through a protocol ca
 <h4>Exercises:</h4>
 
 <p>
-I.	Let's do sample requests to a REST API using a Graphical User Interface.  We’ll take a look at historical price data on Bitcoin served by GDAX’s REST API as an example. 
+<h4>I.	Let's do sample requests to a REST API using a Graphical User Interface.</h4>  
+
+<p>
+We’ll take a look at historical price data on Bitcoin served by GDAX’s REST API as an example. 
 </p>
 
 <p>1) You need to install Google Chrome on either Windows or Ubuntu.</p>

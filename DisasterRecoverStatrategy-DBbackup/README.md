@@ -45,21 +45,15 @@
 This strategy is ideal for automation. And since the strategy needs to be repeated on schedule, we will use Python to build a scheduler that repeats cloning a mysql database using the terminal tool "mysqldump".  To do this we will need to invoke an operationg system subprocess using the "os" module.  Next, you'll transfer the *.sql file to an external server via SSH, then we will restore the backup sql schema into remote db, perform a simple query to verify that the clone was performed sucessfully
 </p>
 
-
 <h4> Database backup and test strategy</h4>
 <p>1) Run a scheduler that repeats cloning a MySQL database into *.sql file.</p>
 <p>2) In the scheduler, transfer the *.sql file to your Ubuntu SSH server using PuTTy terminal tool, pscp.</p>
 <p>3) On Ubuntu Server, run Python script in the background that tests transfered *.sql file on a schedule.</p>
 <p>4) On Ubuntu Server, automate sending test results to an email.</p>
 
-
-
-
-
 <h5>1) Create a clone using mysqldump</h5>
-
 <p>
-	First, import os and create subprocess that calls on the command line tool, "mysqldump". mysqldump is a tool installed natively with MySQL distributions. It cannot be used from mysql shell, but directly from Bash or Windows terminal.  
+First, import os and create subprocess that calls on the command line tool, "mysqldump". mysqldump is a tool installed natively with MySQL distributions. It cannot be used from mysql shell, but directly from Bash or Windows terminal.  
 </p>
 
 <pre>
@@ -72,5 +66,22 @@ os.popen("mysqldump -u root --password="+password+" --databases employees > dump
 <p>
 The reason that we are importing the "sys" module is so we can accept a user's root password as a command line argument, and then assign it to a variable called password, which is then concatenated into mysqldump command called by the subprocess.  The next step involves using SSH to transfer .sql files to a mock remote server.  A sound disaster recover strategy involves transfer clone SQL schema to a server in a different geographical location then host server.  Before we add a couple more lines in python to accomplish this task, lets first set tup a remote SSH server on a virtual machine.
 </p>
+
+
+
+<h4>2) Send your backup (*.sql) to a remote machine (your local host)</h4>
+
+<p>
+In a real world eneterprise environment you want to send your backup to a remote machine in a different geographical location.  For this exercise will just send it your SSH server on your Ubuntu virtual machine.  To send files securely over SSH. 
+</p>
+
+<pre>
+>pscp -pw "password_here" putty.py username@127.0.0.1:
+</pre>
+
+<p>
+
+</p>
+
 
 

@@ -42,8 +42,17 @@
  <p>3) Make sure to actually restore backups on a testserver, and verify that you can restore with all the options and conditions you need to use during a planned or un-planned downtime.</p>
  
 <p>
-This strategy is ideal for automation. And since the strategy needs to be repeated on schedule, we will use Python to build a scheduler that repeats cloning a mysql database using the terminal tool "mysqldump".  To do this we will need to invoke an operationg system subprocess using the "os" module. Next in our script, we will transfer the cloned schema ( *.sql file). Next, you'll transfer the *.sql file to an external server via SSH, then we will restore the backup sql schema into remote db, perform a simple query to verify that the clone was performed sucessfully
+This strategy is ideal for automation. And since the strategy needs to be repeated on schedule, we will use Python to build a scheduler that repeats cloning a mysql database using the terminal tool "mysqldump".  To do this we will need to invoke an operationg system subprocess using the "os" module.  Next, you'll transfer the *.sql file to an external server via SSH, then we will restore the backup sql schema into remote db, perform a simple query to verify that the clone was performed sucessfully
 </p>
+
+
+<h4> Database backup and test strategy</h4>
+<p>1) Run a scheduler that repeats cloning a MySQL database into *.sql file.</p>
+<p>2) In the scheduler, transfer the *.sql file to your Ubuntu SSH server using PuTTy terminal tool, pscp.</p>
+<p>3) On Ubuntu Server, run Python script in the background that tests transfered *.sql file on a schedule.</p>
+<p>4) On Ubuntu Server, automate sending test results to an email.</p>
+
+
 
 
 

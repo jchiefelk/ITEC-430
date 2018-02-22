@@ -1,0 +1,13 @@
+import schedule
+import time
+import os
+import datetime
+import sys
+password=sys.argv[1]
+
+
+timestamp = datetime.datetime.utcnow()
+backupdatabase = 'backup_'+str(timestamp)
+targetdatabase = 'employees'
+newschema = backupdatabase+'.sql'
+os.system('mysqladmin create '+ backupdatabase +' -u root -p'+password)

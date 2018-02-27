@@ -18,3 +18,11 @@ After doing this, you can fix the identity used for the commits within existing 
 <p>
 Now try to pull data.....
 </p>
+
+
+<h3>How to push to Github</h3>
+<pre>
+git add .
+git commit -m "add comments here"
+git push
+</pre>

@@ -25,4 +25,4 @@
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/DisasterRecoverStatrategy-DBbackup">DisasterRecoverStatrategy-DBbackup</a></h3> Create a disaster recovery strategy for MySQL database on Windows Server</p>
 
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">DisasterRecoverStatrategy-DBbackup</a></h3>Automate sending reports to email. a) Settup Mail Server in Ubuntu</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">Automating Error Report Notification</a></h3>Automate sending reports to email. a) Settup Mail Server in Ubuntu</p>

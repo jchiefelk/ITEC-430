@@ -17,3 +17,14 @@
 
 <p>
 </p>
+
+
+<h4></h4>
+
+<h4>Useful links</h4>
+
+<p><a href="https://leanpub.com/insidethepythonvirtualmachine/read">https://leanpub.com/insidethepythonvirtualmachine/read</a></p>
+
+<p><a href="https://www.python.org/doc/essays/omg-darpa-mcc-position/">https://www.python.org/doc/essays/omg-darpa-mcc-position/</a></p>
+
+<p><a href="https://bytebaker.com/2012/06/20/python-as-a-glue-language/">https://bytebaker.com/2012/06/20/python-as-a-glue-language/</a></p>

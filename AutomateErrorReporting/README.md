@@ -23,10 +23,12 @@ sudo nano /etc/ssmtp/ssmtp.conf
 
 <p>Add the following to the file:</p>
  
+<pre>
 AuthUser=<user>@gmail.com
 AuthPass=Your-Gmail-Password
 mailhub=smtp.gmail.com:587
 UseSTARTTLS=YES
+</pre>
 
 <p>
 Save and close the file:

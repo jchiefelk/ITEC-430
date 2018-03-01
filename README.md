@@ -14,6 +14,10 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Deploy a web application built with Python on your localhost.  Learn how to query servers for data using curl.  Interact with rest APIs using GUI tool Postman</p>
 
+
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/restAPI">REST API's</a></h3> Deploy a web application built with Python on your localhost.  Learn how to query servers for data using curl.  Interact with rest APIs using GUI tool Postman</p>
+
+
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-bash">Python-Bash</a></h3> Repeat a task using a scheduler that repeats Bash commands over a preset time interval with Python</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/python-powershell">PowerShell</a></h3> Using the PowerShell terminal to naviagte directory, create new directories, setting path for Python 3, installing Git, running Python 3 in PowerShell</p>
@@ -26,3 +30,8 @@
 
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">Automating Error Report Notification</a></h3>Automate sending reports to email. a) Settup Mail Server in Ubuntu</p>
+
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">Shell vs PowerShell vs Python</a></h3> Comparison for which is better for your scripting needs</p>
+
+
+

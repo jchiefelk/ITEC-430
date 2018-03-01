@@ -29,11 +29,11 @@ Stringlist = [“robot”, “developer”, “engineer”, “AI”, “data”
 In a Python script, make a call to this method.
 </p>
 <p>
-4) Create a new MySQL database on your Windows virtual machine, called users. Users is an entity that has attributes; username, password, score.  Populate with 5 entries, makeup 
+4) Create a new MySQL database on your Windows virtual machine, called users. Users is an entity that has attributes; username, password, score.  Populate with 5 entries, makeup data. clone schema into *.sql file
 </p>
 
 <p>
-5) Build a Python script that connects to your MySQL database using not a command line tool, but through a module called Flask.  This is like a research project on how to use methods from one of the MANY modules there are for Python
+5) Build a Python script that connects to your MySQL database using not a command line tool, but through a module called Flask.  This is like a research project on how to use methods from one of the MANY modules there are for Python.
 </p>
 
 

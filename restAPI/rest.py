@@ -9,11 +9,9 @@ password={
 def api_actions():
 	if request.method =='GET':
 
-		print(request.args)
-
 		if 'password' in request.args and password['secret']==request.args['password']:
 			response={
-			'message': 'Password '+request.args['password']+' correct'+'\n'
+				'message': 'Password '+request.args['password']+' correct'+'\n'
 			}
 			return response['message']
 		else:

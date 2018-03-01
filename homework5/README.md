@@ -13,7 +13,7 @@
 
 	FirstName	LastName	Age	Salary($/yr)
 	Loesch		Chris		37	100000
-	Murphy	Shamus	59	50000
+	Murphy		Shamus		59	50000
 	Perry		Rick		65	1000000
 	Jones		Tom		44	68000
 

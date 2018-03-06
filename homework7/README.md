@@ -19,7 +19,7 @@
 <h4>To Print at Module Path environment variable</h4>
 
 <pre>
-$env:PSModulePath = $env:PSModulePath + ";c:\ModulePath"
+$env:PSModulePath
 </pre>
 
 <h4>Add to module path environment variable</h4>

@@ -14,3 +14,15 @@
 
 <h4>3) Learn about Phineas Fisher</h4>
 <a href="https://www.youtube.com/watch?v=BpyCl1Qm6Xs&t=190s">6 minute interview on Viceland with Phineas Fisher as a Puppet</a>
+
+
+<h4>To Print at Module Path environment variable</h4>
+
+<pre>
+$env:PSModulePath
+</pre>
+
+<h4>Add to module path environment variable</h4>
+<pre>
+$env:PSModulePath = $env:PSModulePath + ";c:\ModulePath"
+</pre>

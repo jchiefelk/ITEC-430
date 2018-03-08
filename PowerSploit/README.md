@@ -36,7 +36,7 @@ To copy PowerSplot into this folder,
 </p>
 
 <pre>
->Copy-Item -Path C:\Users\Administrator -Destination C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+>copy C:\Users\Administrator\PowerSploit C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 </pre>
 
 <p>

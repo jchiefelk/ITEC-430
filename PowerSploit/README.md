@@ -24,9 +24,33 @@ Clone PowerSploit from Github
 </pre>
 
 <p>
- Then p
+ Then copy PowerSploit to your module path.  To find your module path,
 </p>
 
 <pre>
 >$Env:PSModulePath
+</pre>
+
+<p>
+To copy PowerSplot into this folder,
+</p>
+
+<pre>
+Copy-Item -Path C:\Users\Administrator -Destination C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+</pre>
+
+<p>
+ Then properly import the module into your environment variables
+</p>
+
+<pre>
+Import-Module PowerSploit
+</pre>
+
+<p>
+To check if the installation was a success, run this command to see a list of all of the Cmdlets that come with this module. 
+</p>
+
+<pre>
+Get-Command -Module PowerSploit
 </pre>

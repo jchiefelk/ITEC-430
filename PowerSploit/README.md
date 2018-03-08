@@ -2,7 +2,7 @@
 
 <h4>What is PowerSploit?</h4>
 
-<p>PowerSploit is an Offensive Active Directory module</p>
+<p>PowerSploit is collection of Offensive Active Directory modules or Exploitation Framework</p>
 
 <h4>Installing PowerSploit</h4>
 

@@ -36,7 +36,7 @@ To copy PowerSplot into this folder,
 </p>
 
 <pre>
-Copy-Item -Path C:\Users\Administrator -Destination C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+>Copy-Item -Path C:\Users\Administrator -Destination C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 </pre>
 
 <p>
@@ -44,7 +44,7 @@ Copy-Item -Path C:\Users\Administrator -Destination C:\Windows\system32\WindowsP
 </p>
 
 <pre>
-Import-Module PowerSploit
+>Import-Module PowerSploit
 </pre>
 
 <p>
@@ -52,5 +52,5 @@ To check if the installation was a success, run this command to see a list of al
 </p>
 
 <pre>
-Get-Command -Module PowerSploit
+>Get-Command -Module PowerSploit
 </pre>

@@ -31,7 +31,6 @@
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">Automating Error Report Notification</a></h3>Automate sending reports to email. a) Settup Mail Server in Ubuntu</p>
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">Shell vs PowerShell vs Python</a></h3> Comparison for which is better for your scripting needs</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/comparison">Shell vs PowerShell vs Python</a></h3> Comparison for which is better for your scripting needs</p>
 
-
-
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/blob/master/PowerSploit/">Third Party PowerShell Modules</a></h3> Install PowerSploit module and user PowerView tool to look at Group Policy Object</p>

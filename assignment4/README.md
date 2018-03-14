@@ -45,7 +45,7 @@ In a Python script, make a call to this method.
 <h4>Brute-Force Method</h4> 
 
 <p>  
-This easiest method for a Newb to implement this is by using a method does not require any fancy data structure or algroithm.  The Brute-Force method just requires a nested for loop with a conditional statement to create a new ordered array.  The brute force method of taking an unordered list/array and creating an ordered array is called Bubble Sort.
+This easiest method for a Newb to implement is by using a method does not require any fancy data structure or algroithm.  The Brute-Force method just requires a nested for loop with a conditional statement to create a new ordered array.  The brute force method of taking an unordered list/array and creating an ordered array is called Bubble Sort.
 </p>
   
 <p>

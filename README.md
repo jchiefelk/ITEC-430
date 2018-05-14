@@ -25,7 +25,7 @@
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/DisasterRecoverStatrategy-DBbackup">DisasterRecoverStatrategy-DBbackup</a></h3> Create a disaster recovery strategy for MySQL database on Windows Server</p>
 
 
-<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/AutomateErrorReporting">Automating Error Report Notification</a></h3>Automate sending reports to email. a) Settup Mail Server in Ubuntu</p>
+<p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/DisasterRecoverStategy-DBbackup">Automating Error Report Notification</a></h3>Automate sending reports to email. a) Settup Mail Server in Ubuntu</p>
 
 <p><h3><a href="https://github.com/jchiefelk/ITEC-430/tree/master/comparison">Shell vs PowerShell vs Python</a></h3> Comparison for which is better for your scripting needs</p>
 
